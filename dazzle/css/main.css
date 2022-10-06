@@ -28,20 +28,21 @@
   src: url("../fonts/muli/muli-bold-webfont.woff2") format("woff2"), url("../fonts/muli/muli-bold-webfont.woff") format("woff");
 }
 
-.botoncito:hover {
+#botoncito:hover {
   background-color: white;
   color: black;
 }
 
-.botoncito {
+#botoncito {
   padding: 15px 80px;
   background-color: transparent;
   border: 3px solid #ffffff;
   border-radius: 5px;
   font-size: larger;
-  font-family: "muli-bold";  
-  scroll-behavior: smooth;
+  font-family: "muli-bold"; 
+  scroll-behavior: smooth; 
 }
+
 
 /* ===================================================================
  *  01. webfonts and iconfonts - (_document-setup)
