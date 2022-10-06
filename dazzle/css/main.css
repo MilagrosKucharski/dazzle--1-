@@ -1141,8 +1141,9 @@ h1.intro-header::before {
  * ------------------------------------------------------------------- */
 
 .header-logo {
-  position: absolute;
-  left: 40px;
+  position:relative;
+  
+  left: -30px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -1321,17 +1322,18 @@ h1.intro-header::before {
  * header
  * ------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1230px) {
+@media only screen and (max-width: px) {
   #header {
     max-width: none;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1500px) {
   .header-logo a {
-    width: 88px;
-    height: 20px;
-    background-size: 88px 20px;
+    width: 264px;
+    height: 50px;
+    background-size: 220px 50px;
+    padding: 120px 40px 54px;
   }
   #header-nav-wrap {
     display: none;
