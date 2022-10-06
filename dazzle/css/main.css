@@ -43,6 +43,10 @@
   scroll-behavior: smooth; 
 }
 
+[src="logo.png"] {
+  justify-content:right;
+}
+
 
 /* ===================================================================
  *  01. webfonts and iconfonts - (_document-setup)
