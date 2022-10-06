@@ -23,6 +23,25 @@
  *
  * =================================================================== */
 
+ @font-face {
+  font-family: "muli-bold";
+  src: url("../fonts/muli/muli-bold-webfont.woff2") format("woff2"), url("../fonts/muli/muli-bold-webfont.woff") format("woff");
+}
+
+.botoncito:hover {
+  background-color: white;
+  color: black;
+}
+
+.botoncito {
+  padding: 15px 80px;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  font-size: larger;
+  font-family: "muli-bold";  
+  scroll-behavior: smooth;
+}
 
 /* ===================================================================
  *  01. webfonts and iconfonts - (_document-setup)
@@ -83,14 +102,14 @@ body {
 
 a,
 a:visited {
-  color: #0087cc;
+  color: white;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus {
-  color: #39b54a;
+  color: #037208;
 }
 
 
@@ -1099,6 +1118,7 @@ h1.intro-header::before {
 }
 
 
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * common styles
@@ -1115,7 +1135,6 @@ h1.intro-header::before {
     font-size: 2.6rem;
   }
 }
-
 
 
 /* ===================================================================
